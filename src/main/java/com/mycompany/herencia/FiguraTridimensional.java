@@ -27,10 +27,6 @@ public class FiguraTridimensional extends Figura {
         return (base*altura*ancho);
     }
     
-    //public void descripcion() {
-	//System.out.println("Esta es una " + tipo());
-    //}
-    
     public String tipo() { return "figura tridimensional"; }
     public void describir() {}
 }
